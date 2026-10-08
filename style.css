@@ -1,0 +1,31 @@
+ul {
+    list-style-type: square;
+}
+ol {
+    list-style-type: upper-roman;
+}
+ul ul {
+    list-style-type: circle;
+}
+
+.bildlista li {
+    margin: 10px 0;
+    gap: 10px;
+}
+
+.bildlista img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.bildlista ul li {
+    display: list-item;
+    align-items: center;
+}
+
+.bildlista ul img {
+    width: 60px;
+    height: 60px;
+}
